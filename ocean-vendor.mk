@@ -7,6 +7,10 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/ocean/proprietary/vendor/lib64/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-qcom.so \
+    vendor/motorola/ocean/proprietary/system/lib/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmcamera_faceproc.so \
+    vendor/motorola/ocean/proprietary/system/lib/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmcamera_faceproc2.so \
+    vendor/motorola/ocean/proprietary/system/lib64/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmcamera_faceproc.so \
+    vendor/motorola/ocean/proprietary/system/lib64/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmcamera_faceproc2.so \
     vendor/motorola/ocean/proprietary/vendor/bin/charge_only_mode:$(TARGET_COPY_OUT_VENDOR)/bin/charge_only_mode \
     vendor/motorola/ocean/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice \
     vendor/motorola/ocean/proprietary/vendor/etc/acdbdata/common/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/common/Bluetooth_cal.acdb \
@@ -142,6 +146,20 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/ocean/proprietary/vendor/lib/libchromatix_ov12a10_ocean_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_ocean_snapshot.so \
     vendor/motorola/ocean/proprietary/vendor/lib/libchromatix_ov12a10_ocean_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_ocean_zsl_preview_3a.so \
     vendor/motorola/ocean/proprietary/vendor/lib/libchromatix_ov12a10_ocean_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_ocean_zsl_video_3a.so \
+    vendor/motorola/ocean/proprietary/vendor/lib/libchromatix_s5k4h7_channel_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_channel_common.so \
+    vendor/motorola/ocean/proprietary/vendor/lib/libchromatix_s5k4h7_channel_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_channel_cpp_hfr_120.so \
+    vendor/motorola/ocean/proprietary/vendor/lib/libchromatix_s5k4h7_channel_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_channel_cpp_liveshot.so \
+    vendor/motorola/ocean/proprietary/vendor/lib/libchromatix_s5k4h7_channel_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_channel_cpp_preview.so \
+    vendor/motorola/ocean/proprietary/vendor/lib/libchromatix_s5k4h7_channel_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_channel_cpp_snapshot.so \
+    vendor/motorola/ocean/proprietary/vendor/lib/libchromatix_s5k4h7_channel_cpp_snapshot_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_channel_cpp_snapshot_custom.so \
+    vendor/motorola/ocean/proprietary/vendor/lib/libchromatix_s5k4h7_channel_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_channel_cpp_video_full.so \
+    vendor/motorola/ocean/proprietary/vendor/lib/libchromatix_s5k4h7_channel_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_channel_hfr_120.so \
+    vendor/motorola/ocean/proprietary/vendor/lib/libchromatix_s5k4h7_channel_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_channel_hfr_120_3a.so \
+    vendor/motorola/ocean/proprietary/vendor/lib/libchromatix_s5k4h7_channel_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_channel_postproc.so \
+    vendor/motorola/ocean/proprietary/vendor/lib/libchromatix_s5k4h7_channel_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_channel_snapshot.so \
+    vendor/motorola/ocean/proprietary/vendor/lib/libchromatix_s5k4h7_channel_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_channel_video_full.so \
+    vendor/motorola/ocean/proprietary/vendor/lib/libchromatix_s5k4h7_channel_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_channel_zsl_preview_3a.so \
+    vendor/motorola/ocean/proprietary/vendor/lib/libchromatix_s5k4h7_channel_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_channel_zsl_video_3a.so \
     vendor/motorola/ocean/proprietary/vendor/lib/libchromatix_s5k4h7_ocean_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_ocean_common.so \
     vendor/motorola/ocean/proprietary/vendor/lib/libchromatix_s5k4h7_ocean_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_ocean_cpp_hfr_120.so \
     vendor/motorola/ocean/proprietary/vendor/lib/libchromatix_s5k4h7_ocean_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_ocean_cpp_liveshot.so \
@@ -272,4 +290,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/ocean/proprietary/vendor/lib/soundfx/libmmieffectswrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libmmieffectswrapper.so \
     vendor/motorola/ocean/proprietary/vendor/lib/soundfx/libspeakerbundle.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libspeakerbundle.so \
     vendor/motorola/ocean/proprietary/vendor/lib/vndk/libtinyalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libtinyalsa.so \
-    vendor/motorola/ocean/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0.so
+    vendor/motorola/ocean/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0.so \
+    vendor/motorola/ocean/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_frame_algorithm.so \
+    vendor/motorola/ocean/proprietary/vendor/lib64/libmmcamera2_is.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_is.so \
+    vendor/motorola/ocean/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_stats_algorithm.so \
+    vendor/motorola/ocean/proprietary/vendor/lib64/libmmcamera2_stats_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_stats_lib.so \
+    vendor/motorola/ocean/proprietary/vendor/lib64/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_dbg.so \
+    vendor/motorola/ocean/proprietary/vendor/lib64/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc.so \
+    vendor/motorola/ocean/proprietary/vendor/lib64/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc2.so \
+    vendor/motorola/ocean/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_algo.so \
+    vendor/motorola/ocean/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_bg_pca_algo.so
