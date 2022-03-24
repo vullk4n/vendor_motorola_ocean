@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/ocean
 
 PRODUCT_COPY_FILES += \
+    vendor/motorola/ocean/proprietary/vendor/lib64/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-qcom.so \
     vendor/motorola/ocean/proprietary/vendor/bin/charge_only_mode:$(TARGET_COPY_OUT_VENDOR)/bin/charge_only_mode \
     vendor/motorola/ocean/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice \
     vendor/motorola/ocean/proprietary/vendor/etc/acdbdata/common/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/common/Bluetooth_cal.acdb \
